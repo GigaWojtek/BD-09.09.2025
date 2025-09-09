@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Atrakcje turystyczne</h1>
+
+    <label for="region"><h3>Miejscowość/region:</h3></label>
+    <input type="text" id="region" name="region">
+
+    <label for="województwo"><h3>Wybierz województwo</h3></label>
+    <select id="województwo" name="województwo">
+      <option>Dolnośląskie</option>
+      <option>Kujawsko-pomorskie</option>
+      <option>Lubelskie</option>
+      <option>Lubuskie</option>
+      <option>Łódzkie</option>
+      <option>Małopolskie</option>
+      <option>Mazowieckie</option>
+      <option>Opolskie</option>
+      <option>Podkarpackie</option>
+      <option>podlaskie</option>
+      <option>Pomorskie</option>
+      <option>Śląskie</option>
+      <option>Świętokrzyskie</option>
+      <option>Warmińsko-mazurskie</option>
+      <option>Wielkopolskie</option>
+      <option>Zachodniopomorskie</option>
+    </select><br><br>
+
+    <h3>Rodzaj atrakcji</h3>
+    <input type="radio" id="krajoznawcza" name="atrakcja" value="krajoznawcza">
+    <label for="krajoznawcza">Krajoznawcza</label><br><br>
+    <input type="radio" id="turystyczna" name="atrakcja" value="turystyczna">
+    <label for="turystyczna">Turystyczna</label><br><br>
+    <input type="radio" id="historyczna" name="atrakcja" value="historyczna">
+    <label for="historyczna">Historyczna</label><br><br>
+    <input type="radio" id="relaksacyjna" name="atrakcja" value="relaksacyjna">
+    <label for="relaksacyjna">Relaksacyjna</label><br><br>
+    <input type="radio" id="sportowa" name="atrakcja" value="sportowa">
+    <label for="sportowa">Sportowa</label><br><br>
+    <input type="radio" id="inna" name="atrakcja" value="inna">
+    <label for="inna">Inna (podaj w opisie :D )</label><br><br>
+
+    <label for="opis"><h3>Opis</h3></label>
+    <textarea name="opis" id="opis" cols="30" rows="10"></textarea> <br><br>
+    
+    <button type="reset">zresetuj</button>
+    <input type="button" id="dodaj" name="dodaj" value="Dodaj">
+   
+
+
+</body>
+</html>
+
